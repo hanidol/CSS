@@ -1,0 +1,123 @@
+body {
+  background: url("../img/buck.jpeg") no-repeat fixed center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  line-height: 1.4;
+}
+
+span {
+  border-bottom: rgb(152, 4, 98) solid 1px;
+  font-weight: bold;
+}
+
+#header {
+  margin-bottom: 15px;
+  background: rgb(85, 190, 24);
+  color: rgb(14, 12, 12);
+  padding: 10px;
+  text-align: center;
+}
+
+#main {
+  float: left;
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+#sidebar {
+  float: left;
+  width: 29%;
+}
+
+.clr {
+  clear: both;
+}
+
+#footer {
+  background: #333;
+  color: rgb(240, 162, 8);
+  padding: 10px;
+}
+
+#main-nav {
+  float: left;
+  background-color: rgba(241, 92, 92, 0.432);
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#main-nav li {
+  float: left;
+}
+
+#main-nav li a {
+  display: block;
+  padding: 15px;
+  color: rgb(13, 1, 1);
+  text-decoration: none;
+}
+
+#main-nav li a:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid rgb(226, 14, 14);
+  background: #51505a60;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.article {
+  border: #333 solid 1px;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: rgb(250, 250, 245);
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 80px;
+  }
+}
+#sidbar {
+  float: right;
+  width: 40%;
+}
+#siidbar {
+  float: left;
+  width: 60%;
+}
+#main-nav1 {
+  float: right;
+  background-color: rgba(92, 236, 241, 0.432);
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+}
